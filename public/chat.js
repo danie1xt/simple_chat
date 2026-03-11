@@ -1,4 +1,4 @@
-const ws = new WebSocket("wss://你的railway地址");
+const ws = new WebSocket("wss://simplechat-production-c6a6.up.railway.app/");
 
 ws.onmessage = (event) => {
   const chat = document.getElementById("chat");
