@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Chat</title>
+</head>
+
+<body>
+
+<h2>Simple Chat</h2>
+
+<div id="chat"></div>
+
+<input id="msg" placeholder="message">
+<button onclick="send()">send</button>
+
+<script src="chat.js"></script>
+
+</body>
+</html>
