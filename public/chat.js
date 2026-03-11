@@ -1,4 +1,4 @@
-const ws = new WebSocket("wss://simplechat-production-c6a6.up.railway.app/");
+const ws = new WebSocket("wss://simplechat-production-c6a6.up.railway.app/ws");
 
 ws.onmessage = (event) => {
   const chat = document.getElementById("chat");
